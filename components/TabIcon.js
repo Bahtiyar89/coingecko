@@ -11,7 +11,7 @@ const TabIcon = ({focused, icon, iconStyle, label, isTrade}) => {
                 justifyContent: 'center',
                 width: 60,
                 height: 60,
-                borderRadius: COLORS.black
+                borderRadius: 45
             }}>
                 <Image
                     source={icon}

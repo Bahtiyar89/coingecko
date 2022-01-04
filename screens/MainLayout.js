@@ -1,7 +1,9 @@
 import React from "react";
- import {} from 'react-native';
+import {View} from 'react-native';
+import {connect} from 'react-redux'
 
- import { COLORS, SIZES, icons } from '../constants'
+import { COLORS, SIZES, icons } from '../constants'
+import { IconTextButton } from '../components'
 
 const MainLayout = ({ children }) => {
     return (
